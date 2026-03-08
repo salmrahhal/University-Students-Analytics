@@ -9,6 +9,36 @@ The dataset contains **3,000 student records and 40 attributes** covering academ
 The final output of the project is an **interactive Tableau dashboard** supported by **Python-based data preparation and analysis**.
 
 ---
+# Tools and Technologies
+
+The following tools were used in this project:
+
+### Python
+Used for data preparation and analysis.
+
+Libraries used include:
+
+- Pandas
+- NumPy
+- Matplotlib / Seaborn (for exploration)
+
+### Jupyter Notebook
+Used for:
+
+- Data exploration
+- Data cleaning
+- Missing value treatment
+- Outlier detection
+
+### Tableau
+Used to build the **interactive analytics dashboard**, including:
+
+- KPI cards
+- Interactive filters
+- Visual storytelling
+- Multi-tab dashboard design
+
+---
 
 # Project Workflow
 
@@ -126,6 +156,7 @@ Provides a high-level institutional snapshot including:
 
 This tab serves as the **main landing page for leadership**.
 
+![Dashboard](1.png)
 ---
 
 ### Academic Performance
@@ -144,7 +175,7 @@ The analysis is segmented by:
 - Year of study
 - Student demographics
 
-![Dashboard](1.png)
+![Dashboard](2.png)
 ---
 
 ### Career Outcomes
@@ -157,73 +188,21 @@ Metrics include:
 - Starting salary
 - Internship participation
 - Graduation pipeline
-
+  
+![Dashboard](3.png)
 ---
 
 # Key Insights
 
 Several important insights were discovered during the analysis.
 
-### GPA Does Not Strongly Predict Employment
+- GPA Does Not Strongly Predict Employment
+- SAT Scores Do Not Predict University GPA
+- Internship Participation Did Not Increase Employment Rate
+- AI Program Students Have the Highest Dropout Risk
+- Final-Year Students Have the Highest Dropout Risk
 
-Students with lower GPA levels have employment rates similar to high-performing students, indicating that employers may value other skills beyond academic performance.
 
----
-
-### SAT Scores Do Not Predict University GPA
-
-The correlation between SAT scores and university GPA is nearly zero, suggesting standardized test scores are weak predictors of university success.
-
----
-
-### Internship Participation Did Not Increase Employment Rate
-
-Students who completed internships had nearly identical employment rates to those who did not.
-
----
-
-### AI Program Students Have the Highest Dropout Risk
-
-Despite having the **highest average GPA**, AI students also show the **highest dropout risk**, indicating non-academic factors may be contributing.
-
----
-
-### Final-Year Students Have the Highest Dropout Risk
-
-Dropout risk increases with academic progression, peaking in **Year 5**, likely due to thesis, workload pressure, and career transition stress.
-
----
-
-# Tools and Technologies
-
-The following tools were used in this project:
-
-### Python
-Used for data preparation and analysis.
-
-Libraries used include:
-
-- Pandas
-- NumPy
-- Matplotlib / Seaborn (for exploration)
-
-### Jupyter Notebook
-Used for:
-
-- Data exploration
-- Data cleaning
-- Missing value treatment
-- Outlier detection
-
-### Tableau
-Used to build the **interactive analytics dashboard**, including:
-
-- KPI cards
-- Interactive filters
-- Visual storytelling
-- Multi-tab dashboard design
-
----
 
 # Repository Structure
 
@@ -232,6 +211,7 @@ project/
 │
 ├── data/
 │   └── university_dataset.csv
+│   └── cleand_university_dataset.csv
 │
 ├── notebooks/
 │   └── data_cleaning.ipynb
@@ -243,16 +223,3 @@ project/
 │   └── University_BI_Report.pdf
 │
 └── README.md
-```
-
-# Project Purpose
-
-This project demonstrates the **end-to-end BI workflow**, including:
-
-- Data cleaning
-- Data quality assessment
-- Data analysis
-- Business intelligence dashboard development
-- Insight generation
-
-The objective is to transform raw operational data into **actionable insights for decision makers** in higher education institutions.
