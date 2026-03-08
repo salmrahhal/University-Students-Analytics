@@ -14,7 +14,7 @@ The final output of the project is an **interactive Tableau dashboard** supporte
 The following tools were used in this project:
 
 ### Python
-Used for data preparation and analysis.
+Used for data preparation and cleaning.   
 Libraries used include:
 - Pandas
 - NumPy
