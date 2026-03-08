@@ -14,29 +14,17 @@ The final output of the project is an **interactive Tableau dashboard** supporte
 The following tools were used in this project:
 
 ### Python
-Used for data preparation and analysis.
-
 Libraries used include:
-
 - Pandas
 - NumPy
-- Matplotlib / Seaborn (for exploration)
+
+Used for data preparation and analysis.
 
 ### Jupyter Notebook
-Used for:
-
-- Data exploration
-- Data cleaning
-- Missing value treatment
-- Outlier detection
 
 ### Tableau
-Used to build the **interactive analytics dashboard**, including:
 
-- KPI cards
-- Interactive filters
-- Visual storytelling
-- Multi-tab dashboard design
+Used to build the **interactive analytics dashboard**, including:
 
 ---
 
@@ -148,48 +136,24 @@ The dashboard consists of **three main analytical tabs**.
 
 Provides a high-level institutional snapshot including:
 
-- Student population
-- Average GPA
-- Dropout risk
-- Employment rate
-- Financial indicators
-
-This tab serves as the **main landing page for leadership**.
-
 ![Dashboard](1.png)
+
 ---
 
 ### Academic Performance
 
 Analyzes academic behavior and performance including:
 
-- GPA distribution
-- SAT score analysis
-- Attendance rate
-- Study hours
-- Credits completed
-
-The analysis is segmented by:
-
-- Program
-- Year of study
-- Student demographics
-
 ![Dashboard](2.png)
+
 ---
 
 ### Career Outcomes
 
 Focuses on employment and career readiness.
-
-Metrics include:
-
-- Employment offer rate
-- Starting salary
-- Internship participation
-- Graduation pipeline
   
 ![Dashboard](3.png)
+
 ---
 
 # Key Insights
