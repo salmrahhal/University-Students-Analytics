@@ -20,7 +20,7 @@ Libraries used include:
 - NumPy
 ### Jupyter Notebook
 ### Tableau
-Used to build the **interactive analytics dashboard**, including:
+Used to build the **interactive analytics dashboard**
 
 ---
 
